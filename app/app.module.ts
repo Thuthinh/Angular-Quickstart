@@ -8,6 +8,4 @@ import {ProductListComponent} from './products/product-list.component';
     declarations: [AppComponent, ProductListComponent],
     bootstrap: [AppComponent]
 })
-export class AppModule{
-
-}
+export class AppModule{}
