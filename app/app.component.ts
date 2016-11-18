@@ -1,10 +1,13 @@
 import {Component} from '@angular/core';
 
 @Component({
-    selector: 'my-app',
-    template: '<h1>My First Angular App</h1>'
+    selector: 'pm-app',
+    template: `<div>
+                    <h1>{{pageTitle}}</h1>
+                    <div>My First Component</div>
+              </div>`
 })
 
 export class AppComponent{
-    
+    pageTitle:  string = 'Acme Product Management';
 }
